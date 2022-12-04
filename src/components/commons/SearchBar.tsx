@@ -23,11 +23,9 @@ const SearchWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 60px;
 `;
 
 const BarBox = styled.div`
-  margin-top: 35px;
   position: relative;
   input {
     height: 60px;

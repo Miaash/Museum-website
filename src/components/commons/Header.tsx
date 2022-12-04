@@ -15,15 +15,15 @@ const Header: React.FC = () => {
 
 export default Header;
 
-const MainWrapper = styled.div`
+const MainWrapper = styled.header`
   display: flex;
   position: relative;
+  position: sticky;
   z-index: 10000;
   width: 100%;
 `;
 
 const HeaderContainer = styled.div`
-  position: fixed;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -43,7 +43,7 @@ const HeaderTitle = styled.img`
 const LoginSection = styled.div`
   position: absolute;
   right: 0;
-  margin-right: 45px;
+  margin-right: 190px;
   color: white;
   font-size: 14px;
   :hover {

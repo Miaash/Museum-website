@@ -3,6 +3,8 @@ import styled from "styled-components";
 import Header from "../components/commons/Header";
 import Carousel from "../components/commons/Carousel";
 import SearchBar from "../components/commons/SearchBar";
+import MuseumCards from "../components/museum/MuseumCards";
+import IntroductionCard from "../components/commons/IntroductionCard";
 
 const MainPage: React.FC = () => {
   return (
@@ -12,6 +14,9 @@ const MainPage: React.FC = () => {
         <Carousel />
       </CarouselSection>
       <SearchBar />
+      <MuseumCards />
+      <MuseumCards />
+      <IntroductionCard />
     </MainWrapper>
   );
 };
@@ -23,11 +28,10 @@ const MainWrapper = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: relative;
   width: 100%;
 `;
 
 const CarouselSection = styled.div`
-  width: 85%;
+  width: 100%;
   height: 500px;
 `;
