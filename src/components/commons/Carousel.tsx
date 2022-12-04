@@ -15,15 +15,14 @@ const MainWrapper = styled.div`
   align-items: center;
   justify-content: center;
   width: 100%;
-  margin-top: 60px;
 `;
 
 const CarouselContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 85%;
-  height: 500px;
+  width: 1900px;
+  height: 450px;
   background-color: var(--gray-010);
   font-size: 25px;
 `;

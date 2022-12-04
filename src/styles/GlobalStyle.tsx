@@ -47,8 +47,9 @@ table {
 html, body {
 	height: 100%;
 	font-size: 62.5%;
-	background-color: #F6F6EB;
+	background-color: var(--yellow-010);
 	font-family: 'Poppins', sans-serif;
+	color: var(--black-020);
 }
 body {
   margin: 0 auto;
@@ -59,9 +60,12 @@ a {
 }
 :root {
     --black-010: #000000;
+    --black-020: #2C2C2C;
 	--gray-010: #D9D9D9;
 	--gray-020: #ACACAC;
+	--gray-030: #707579;
     --yellow-010: #F6F6EB;
+    --yellow-020: #EFEDDF;
     --white-010: #ffffff;
   }
 `;
