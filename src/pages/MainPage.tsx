@@ -5,6 +5,7 @@ import Carousel from "../components/commons/Carousel";
 import SearchBar from "../components/commons/SearchBar";
 import MuseumCards from "../components/museum/MuseumCards";
 import IntroductionCard from "../components/commons/IntroductionCard";
+import Footer from "../components/commons/Footer";
 
 const MainPage: React.FC = () => {
   return (
@@ -17,6 +18,7 @@ const MainPage: React.FC = () => {
       <MuseumCards />
       <MuseumCards />
       <IntroductionCard />
+      <Footer />
     </MainWrapper>
   );
 };
