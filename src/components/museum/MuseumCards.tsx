@@ -4,7 +4,7 @@ import MuseumCard from "./MuseumCard";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
 
-const MuseumCards = () => {
+const MuseumCards: React.FC = () => {
   return (
     <MainWrapper>
       <TitleBox>

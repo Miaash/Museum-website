@@ -61,6 +61,7 @@ a {
 :root {
     --black-010: #000000;
     --black-020: #2C2C2C;
+    --black-030: #12130C;
 	--gray-010: #D9D9D9;
 	--gray-020: #ACACAC;
 	--gray-030: #707579;

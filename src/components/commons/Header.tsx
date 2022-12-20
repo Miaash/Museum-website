@@ -29,7 +29,7 @@ const HeaderContainer = styled.div`
   justify-content: center;
   height: 60px;
   width: 100%;
-  background-color: #000;
+  background-color: var(--black-030);
 `;
 
 const HeaderTitle = styled.img`
